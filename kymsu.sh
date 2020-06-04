@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Please, grab a ☕️, KYMSU keep your working environment up to date!"
 
-MAX_WIDTH=50
+MAX_WIDTH=80
 CURRENT_WIDTH=$(tput cols)
 COLUMNS=$(( CURRENT_WIDTH > MAX_WIDTH ? MAX_WIDTH : CURRENT_WIDTH ))
 printf '%*s\n' "${COLUMNS}" '' | tr ' ' =
