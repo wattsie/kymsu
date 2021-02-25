@@ -3,7 +3,7 @@ if hash brew 2>/dev/null; then
   echo "🍺  Homebrew"
   brew update
   brew upgrade
-  brew outdated --cast | cut -f 1 | xargs brew cask reinstall
+  #brew upgrade --greedy
   echo ""
 
   echo "👨‍⚕  ️The Doc is checking that everything is ok."
